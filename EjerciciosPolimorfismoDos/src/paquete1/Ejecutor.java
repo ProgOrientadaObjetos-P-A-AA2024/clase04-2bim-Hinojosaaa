@@ -43,7 +43,12 @@ public class Ejecutor {
         listaArriendos.add(arriendoComida);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
+        listaArriendos.add(arriendoComida2);
         
+        /*
+        se esta imprimiendo la lista de los objetos de tipo de tipo arriendo que
+        se heredan depende del contexto
+        */
         for (int i = 0; i < listaArriendos.size(); i++) {
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
